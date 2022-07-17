@@ -13,8 +13,8 @@ import SwiftUI
     //Tells view state of the Model
 
 
-class ViewModel{
-    var model:Model = Model()
+class ViewModel:ObservableObject{
+    @Published var model:Model = Model()
     //viewmodel have model 
     
     var pet:String{
@@ -26,6 +26,5 @@ class ViewModel{
         model.switchPet()
         //calls Model()
     }
-    
     
 }
