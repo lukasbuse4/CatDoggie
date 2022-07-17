@@ -13,10 +13,11 @@ struct ContentView: View {
     var body: some View {
         ZStack{
             Text(viewModel.pet)
+                .font(.system(size: 80))
             .padding()
             .onTapGesture {
                 viewModel.switchPet()
-                //switch pet model here
+                //VM calling model() (aka switchPet())
             }
         }
         

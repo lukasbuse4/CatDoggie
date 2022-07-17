@@ -25,3 +25,13 @@ struct Model{
     }
     
 }
+
+
+
+/*
+ model- substance of APP
+ - Func() & Vars
+ 
+ 
+ 
+ */

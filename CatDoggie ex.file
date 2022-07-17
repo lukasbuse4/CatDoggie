@@ -1,0 +1,24 @@
+Model
+    Model ()    //enum- defines values
+    Var Pets()
+    SwithPet()  // logic between dog v cat
+    
+ViewModel
+    var model connected to Model()  //from Model
+    var pet   returns Pet Var       //from Model
+    switchPet() calls switchPet()   //from Model
+    
+        //communication between the VIEW & MODEL
+        
+View                                //ContentView
+    Observable Object var ViewModel = ViewModel()  //connects view to VM *
+    Var body {}                     //UI
+        Text(viewModel.pet)         //calls Dog
+        viewModel.switchPet()       //calls switchFunc
+    
+    
+   
+    
+    
+    
+    

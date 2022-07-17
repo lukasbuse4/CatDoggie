@@ -19,6 +19,7 @@
 		9F854FA22881A3CC0080533E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F854F772881A3CC0080533E /* Assets.xcassets */; };
 		9F854FB22883DE150080533E /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F854FB12883DE150080533E /* Model.swift */; };
 		9F854FBA2883E7EC0080533E /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F854FB92883E7EC0080533E /* ViewModel.swift */; };
+		9F854FBC28840CBA0080533E /* CatDoggie ex.file in Resources */ = {isa = PBXBuildFile; fileRef = 9F854FBB28840CBA0080533E /* CatDoggie ex.file */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		9F854F9B2881A3CC0080533E /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
 		9F854FB12883DE150080533E /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		9F854FB92883E7EC0080533E /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		9F854FBB28840CBA0080533E /* CatDoggie ex.file */ = {isa = PBXFileReference; lastKnownFileType = text; path = "CatDoggie ex.file"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		9F854F6F2881A3C90080533E = {
 			isa = PBXGroup;
 			children = (
+				9F854FBB28840CBA0080533E /* CatDoggie ex.file */,
 				9F854FB12883DE150080533E /* Model.swift */,
 				9F854FB92883E7EC0080533E /* ViewModel.swift */,
 				9F854F742881A3C90080533E /* Shared */,
@@ -273,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F854FA12881A3CC0080533E /* Assets.xcassets in Resources */,
+				9F854FBC28840CBA0080533E /* CatDoggie ex.file in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
