@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    var viewModel = ViewModel()
+   @ObservedObject var viewModel = ViewModel()
     
     var body: some View {
         ZStack{
