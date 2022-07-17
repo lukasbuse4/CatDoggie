@@ -9,15 +9,12 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
+        Text("Reflecting Pet Model")
             .padding()
-        Text("PRINT BUSE Franklin")
-            .padding()
+            .onTapGesture {
+                //switch pet model here
+            }
         
-        //yello
-        //Yoool
-        
-        //test Sunday Fun day 
     }
 }
 
