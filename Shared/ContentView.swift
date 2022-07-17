@@ -8,12 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
+    var viewModel = ViewModel()
+    
     var body: some View {
-        Text("Reflecting Pet Model")
+        ZStack{
+            Text(viewModel.pet)
             .padding()
             .onTapGesture {
+                viewModel.switchPet()
                 //switch pet model here
             }
+        }
         
     }
 }
