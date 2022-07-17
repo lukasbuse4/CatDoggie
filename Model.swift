@@ -6,3 +6,20 @@
 //
 
 import Foundation
+
+struct Model{
+    enum Pet:String{
+        case dog
+        case cat
+    }
+    var pet: Pet = .dog
+    //intial value- dog
+    
+    mutating func switchPet(){
+        if pet == .dog {
+            pet = .cat
+        }else {
+            pet = .dog
+        }
+    }
+}
