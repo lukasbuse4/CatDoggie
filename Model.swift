@@ -9,18 +9,19 @@ import Foundation
 
 struct Model{
     enum Pet:String{
-        case dog
-        case cat
+        case 🐶
+        case 🐱
     }
-    var pet: Pet = .dog
+    var pet: Pet = .🐶
     //intial value- dog
     
     mutating func switchPet(){
-        if pet == .dog {
-            pet = .cat
+        if pet == .🐶 {
+            pet = .🐱
         }else {
-            pet = .dog
+            pet = .🐶
         }
+        print(pet)
     }
     
 }
